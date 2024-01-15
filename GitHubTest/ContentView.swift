@@ -19,9 +19,16 @@ struct ContentView: View {
                     Image(systemName: "house")
                 }
                 .tag(0)
+            
             ProfileView()
                 .tabItem {
                     Image(systemName: "person")
+                }
+                .tag(1)
+            
+            SerachView()
+                .tabItem {
+                    Image(systemName: "magnifyingglass")
                 }
                 .tag(1)
         }
