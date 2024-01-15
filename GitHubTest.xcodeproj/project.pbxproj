@@ -11,6 +11,7 @@
 		527DEA4F2B54AB350086FDAA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527DEA4E2B54AB350086FDAA /* ContentView.swift */; };
 		527DEA512B54AB360086FDAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 527DEA502B54AB360086FDAA /* Assets.xcassets */; };
 		527DEA542B54AB360086FDAA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 527DEA532B54AB360086FDAA /* Preview Assets.xcassets */; };
+		527DEA5C2B54AC5D0086FDAA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527DEA5B2B54AC5D0086FDAA /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		527DEA4E2B54AB350086FDAA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		527DEA502B54AB360086FDAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		527DEA532B54AB360086FDAA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		527DEA5B2B54AC5D0086FDAA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				527DEA4C2B54AB350086FDAA /* GitHubTestApp.swift */,
 				527DEA4E2B54AB350086FDAA /* ContentView.swift */,
+				527DEA5A2B54AC4A0086FDAA /* Core */,
 				527DEA502B54AB360086FDAA /* Assets.xcassets */,
 				527DEA522B54AB360086FDAA /* Preview Content */,
 			);
@@ -65,6 +68,14 @@
 				527DEA532B54AB360086FDAA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		527DEA5A2B54AC4A0086FDAA /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				527DEA5B2B54AC5D0086FDAA /* HomeView.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				527DEA5C2B54AC5D0086FDAA /* HomeView.swift in Sources */,
 				527DEA4F2B54AB350086FDAA /* ContentView.swift in Sources */,
 				527DEA4D2B54AB350086FDAA /* GitHubTestApp.swift in Sources */,
 			);
