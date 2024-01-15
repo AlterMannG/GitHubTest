@@ -9,7 +9,7 @@ import SwiftUI
 
 struct SerachView: View {
     var body: some View {
-        Text("Serach View")
+        Text("Serach View Hello")
     }
 }
 
